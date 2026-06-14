@@ -46,10 +46,13 @@ Social content production for Dalena Huynh's nail salon in Stanton, CA (Cal post
 - **Paparazzi parking lot UGC video PARKED** after 3 paid gens (overstuffed Seedance test, nano frame with mangled sign letters, gpt low-quality storefront) — details in Parked concepts. Lessons: start-image first, one magic element max, storefront signage is a letter trap.
 - Summer Menu posted June 11 (bracket tags). **NO-HASHTAG / brackets rule locked into CreativeStudio CLAUDE.md** (every caption, every client).
 
+## ⭐ CADENCE CHANGE (June 12): REEL MAX — 5 reels/week, Mon–Fri, 1/day, NO weekends
+Feed = 5 reels Mon–Fri. Carousels + singles → Stories (don't cannibalize feed reach). Reel-type rotation keeps the photo bank alive (doodle multi/single, process from her video, before/after, macro). Bottleneck = Dalena feeding the Drive. Revisit in 2 weeks; fall back to 3 reels + carousel + single if bookings stall. Full spec in content-playbook.md. **Live roadmap HTML still shows the old 5-slot mix — needs updating to reflect reel-max.**
+
 ## What's next
-1. **Week 2:** 47-screenshots found message (gen on Cal's go) + hygiene trust post + pedicure carousel — full plan in `content-playbook.md`. Bingo is built and banked for a future Community slot.
-2. **Watch the doodle reel's numbers vs the stills** — if it wins (it should), doodle reel becomes a weekly fixture; photo bank + template are ready.
-3. Get real footage moving: send Dalena the 2-minute shot list (process reels are the #1 booking driver per research and can't be faked) + ask her for one vertical phone photo of every fresh set (photo bank is down to ~5 usable)
+1. **Week 2 (full 5 slots locked):** 47-screenshots found message (gen on Cal's go) + hygiene trust post + pedicure carousel + DOODLE REEL #2 (from Dalena's new Drive photos) + Bingo (banked) — full plan in `content-playbook.md`.
+2. **Dalena is adding photos + VIDEOS to the Drive this weekend (June 13-14, confirmed June 12)** — pull new verticals for doodle reel #2, log them in photo-usage-log.md. If real video clips land, build the first real process reel.
+3. **Watch the doodle reel's numbers vs the stills** — informs how hard to lean on the format.
 4. Optional: revive the UGC reel concept ONLY if Dalena changes her mind on AI people
 
 ## Parked concepts

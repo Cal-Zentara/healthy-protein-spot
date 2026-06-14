@@ -5,6 +5,17 @@ Source: Meta AI trend pull, June 7 2026 (Meta said ~90% backed by real OC + nati
 
 ---
 
+## ⭐ /ENGINE TREND QUESTIONS (locked by Cal, June 13 2026)
+
+For weekly /engine runs. The 3 FIXED questions (formats/sounds/hooks, what's timely, top creators) live in the engine itself and apply to every account. Nail'd It's 2 NICHE questions (nails are high velocity, so it earns two):
+
+1. What nail designs, colors, and shapes are rising right now, and which are fading?
+2. What nail services or techniques are people asking for more of?
+
+Why these two: women save nail sets like outfit pins (screenshots become "I want this one" bookings), so Q1 stocks the feed with the sets they will ask for. And women hear a technique going around (BIAB, Russian manicure, gel-x) then search for a salon that does it, so Q2 tells Dalena what to show she offers. Dalena's yes/no and the saves/comments are the real vote.
+
+---
+
 ## ⭐ THE FRAME (locked by Cal, June 10 2026)
 
 **We don't sell nails. We sell the confidence she carries out the door.**
@@ -44,6 +55,7 @@ If Claude can't name the callout and the emotion in one line each, the post does
 - Insider secret: "What your nail tech wishes you knew about gel removal."
 - "Things my clients say": "I trust you, just nothing crazy." (documented winning nail genre)
 - Story caption, not specs: "Soft nude with micro French for her first big job interview."
+- **Pick-a-number (locked June 12, proven on the first doodle reel):** any post showing multiple options gets numbered ("1 the pearl chrome, 2 the milky bows, 3 the glazed donut") + "drop your number in the comments." Gives the post a game, drives comments, and on reels makes people REWATCH to choose — rewatches are reach fuel. Reuse on every multi-set reel, inspo carousel, or this-vs-that post.
 - Hook in 4 places at once: first frame, on-screen text, audio, first caption line. Vary the wording across them.
 
 ### Trend calendar (Marie Claire, Zoe Report, Who What Wear, Glamnetic, sNails — June 10 2026)
@@ -73,12 +85,27 @@ Her old comments ARE the content calendar. Every question asked out loud = hundr
 
 ---
 
+## ⭐ POSTING CADENCE — REEL MAX (locked by Cal, June 12 2026)
+
+**5 reels a week, Monday to Friday, ONE post a day, NO weekend posting.** This is the growth bet: reels are what get the page found, so the whole feed becomes reels.
+
+- **Feed = 5 reels, Mon–Fri.** One per day. Never 2 feed posts in a day (your own posts cannibalize each other's reach when stacked same-day).
+- **Carousels + single images move to STORIES** that week. Stories don't compete for feed reach, so volume there is free. (Trade-off Cal accepted: carousels lose feed reach and carousels are the booking driver — we're prioritizing discovery over bookings for this test.)
+- **No Saturday/Sunday posts.** Stories can still run on weekends if Cal wants, but no feed posts.
+- **Reel type rotation (to not drain the photo bank):** multi-set doodle reel (3 photos), single-set spotlight doodle reel (1 photo, ~8s), process reel (Dalena's video clips, 0 photos), before/after reveal (2 photos), detail macro (1 photo or clip). Mix types each week so 5 reels ≈ 7-9 photos + a video clip, not 15 photos.
+- **THE BOTTLENECK IS SUPPLY, not build capacity.** 5 reels/week only works if Dalena keeps the Drive fed with photos + video. If the Drive runs thin, reels drop to 3 and carousels/singles come back into the feed until she restocks. Her weekend drops are the engine.
+- **Revisit after 2 weeks:** if reach jumps but bookings stall, swap to Option B (3 reels + 1 carousel + 1 single in feed) since carousels are the proven booking driver.
+
+---
+
 ## Week 2 + 3 plan (locked June 10 2026)
 
 **Week 2:**
 - Community: "47 screenshots" found message. Line: `"I'LL JUST DO SOMETHING SIMPLE" YOU SAID, WITH 47 SCREENSHOTS READY.` Surface: handwritten note taped by the front desk, real salon as backdrop via nano_banana_2 with `assets/salon-interior.png` as reference (no people in gen — the source photo has real customers). Callout: every client ever. Emotion: caught, laughing. Prompt written June 10 — awaiting Cal's go.
 - Trust: hygiene post, "fresh tools, every client" (from the comment question)
 - Helpful: "What a pedicure actually does" carousel (rebuilt from her old wall-of-text post)
+- Reveal: **DOODLE REEL #2** — Dalena is adding fresh photos AND videos to the Drive the weekend of June 13-14 (confirmed June 12). Pull 3 new vertical photos from the Drive, check/update photo-usage-log.md, run the doodle-reel skill. If she sends VIDEO clips, that also unlocks the real process reel (the #1 booking driver per research) — review what lands before picking.
+- Service: Summer Nail Bingo (built + approved, banked from Week 1)
 
 **Week 3:**
 - Trust: gel myth-buster (ALREADY BUILT — `outputs/week1-trust/index.html`. Moved out of Week 1 because its message overlapped the June 10 gel found message)
