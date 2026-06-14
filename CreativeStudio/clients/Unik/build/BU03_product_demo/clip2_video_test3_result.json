@@ -1,0 +1,70 @@
+[
+  {
+    "id": "8a37460d-12ef-4a79-9686-252aeb03bb0e",
+    "status": "completed",
+    "display_name": "Seedance 2.0",
+    "job_set_type": "seedance_2_0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/hf_20260614_013445_8a37460d-12ef-4a79-9686-252aeb03bb0e.mp4",
+    "created_at": 1781400885.424242,
+    "params": {
+      "width": 854,
+      "height": 480,
+      "prompt": "Four real school boys out at recess, each a cute kid with natural proportions that match his age, slim or average build. There are exactly four boys and each owns one pant color the whole time: the boy from @Image1 in navy, the boy from @Image2 in medium grey, the boy from @Image3 in deep hunter green that clearly reads green and never black, the boy from @Image4 in soft light khaki distinct from the grey, no two boys ever in the same color. Each wears a white pique polo tucked in so the elastic waistband shows. The pant is identical on all four: a wide stitched elastic waistband, flat smooth front, matte twill with a real visible weave, slant side pockets, straight leg, hemmed cuff, and NO zipper, no button, no belt and no denim anywhere. The setting is a real outdoor recess yard, open blacktop with faded painted lines and a play structure, only these four boys in the scene and no other children anywhere, soft even daylight in open shade with no harsh sun and no warm cast so all four colors read true. True accurate color, real fabric weave, sharp and clear, not glossy plastic AI. The opening is anchored on the navy boy kicking off the play, then it builds into fast energetic recess play, the four never in a row, always scattered in real play, hard cuts only.\n\nIt opens on the navy boy kicking off the play, he scoops up a ball, gives it one hard bounce and snaps a pass out to start the game, the other three breaking into motion to join him, each in his color and spaced well apart so all four colors read clearly, never a line, the navy boy starting it before it builds into full play.\n\nQuick hard cut, one boy drops onto one knee on the rough blacktop to scoop something up and springs straight back up, the knee taking the hard ground, the tough twill stretching and holding without a tear.\n\nQuick hard cut, another boy leaps off the low step of the play structure, the colored twill flexing in midair, then lands light and solid on the blacktop.\n\nQuick hard cut in close on one boy's legs as he plants and bends at the knees mid run, the twill stretching tight across the knees then snapping right back, the tucked polo keeping the waistband visible, the weave and the deep true color filling the frame.\n\nHard cut, one boy sprints straight at the camera and closes out the frame, filling the lens as he charges past, the other three still playing in motion behind him so the navy, grey, green and khaki all stay in view, every pant still sharp and clean, pure energy to end, never standing still.\n\nEvery cut is a hard cut. Fast and energetic, the pants holding up, all four colors on show. No slow motion. No character ever holds a stare at the camera, eyes on the play and the body always moving. No row, always scattered. No text, no captions, no words or letters anywhere on screen.\n\nSound: Use @Audio1 as the rhythmic foundation of the whole video. Sync every hard cut and their footsteps to the beat positions of @Audio1. Natural sound effects only on top: sneakers on the blacktop, kids calling out, real recess chatter.",
+      "genre": "auto",
+      "medias": [
+        {
+          "data": {
+            "id": "ad4e47ea-5c84-4139-a576-48ff0171188c",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/ad4e47ea-5c84-4139-a576-48ff0171188c.png",
+            "type": "media_input"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "46ce5445-683e-456f-ab17-72537c2cad79",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/46ce5445-683e-456f-ab17-72537c2cad79.png",
+            "type": "media_input"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "e3ae057c-b616-4879-ac3f-608230da8442",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/e3ae057c-b616-4879-ac3f-608230da8442.png",
+            "type": "media_input"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "68be5055-460d-4089-bf57-7e6ebd12a835",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/68be5055-460d-4089-bf57-7e6ebd12a835.png",
+            "type": "media_input"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "0616ff5d-cde9-4b0a-94a2-da7371219d90",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/0616ff5d-cde9-4b0a-94a2-da7371219d90.mp3",
+            "type": "audio_input"
+          },
+          "role": "audio"
+        }
+      ],
+      "duration": 12,
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "generate_audio": true,
+      "multi_shots": false,
+      "multi_shot_mode": "custom",
+      "multi_prompt": [],
+      "speedramp": "auto",
+      "reference_elements": [],
+      "prompt_language": "en",
+      "mode": "fast",
+      "model": "seedance_2_0_fast"
+    }
+  }
+]

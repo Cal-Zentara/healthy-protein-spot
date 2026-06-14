@@ -1,0 +1,70 @@
+[
+  {
+    "id": "9eb95bee-7e93-474e-a72c-6905ea0a2797",
+    "status": "completed",
+    "display_name": "Seedance 2.0",
+    "job_set_type": "seedance_2_0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/hf_20260614_015649_9eb95bee-7e93-474e-a72c-6905ea0a2797.mp4",
+    "created_at": 1781402209.015595,
+    "params": {
+      "width": 854,
+      "height": 480,
+      "prompt": "A short product clip of four real school boys at recess, shown one boy at a time, each a cute kid with natural proportions that match his age, slim or average build. There are exactly four boys and each owns one pant color: the boy from @Image1 in navy, the boy from @Image2 in medium grey, the boy from @Image3 in deep hunter green that clearly reads green and never black, the boy from @Image4 in soft light khaki distinct from the grey, no two boys ever in the same color. Each wears a white pique polo tucked in so the elastic waistband shows. The pant is identical on all four: a wide stitched elastic waistband, flat smooth front, matte twill with a real visible weave, slant side pockets, straight leg, hemmed cuff, and NO zipper, no button, no belt and no denim anywhere. The setting is a real outdoor recess yard, open blacktop with faded painted lines and a play structure, soft even daylight in open shade with no harsh sun and no warm cast so all four colors read true. True accurate color, real fabric weave, sharp and clear, not glossy plastic AI. Only one boy is in the frame at a time, never a crowd, each color getting its own clean moment, hard cuts only.\n\nIt opens on the navy boy alone on the open blacktop, he pushes a soccer ball ahead and strikes it with one quick kick, just him in the frame, grounded and clear, the navy pants reading true.\n\nQuick hard cut to the grey boy alone, he drops onto one knee on the rough blacktop to trap the loose ball then springs straight back up, the knee taking the hard ground, the tough grey twill stretching and holding without a tear, only him in the frame.\n\nQuick hard cut to the green boy alone, he plants hard and cuts sharply with the ball, the deep green twill flexing with the fast move, full free range of motion, only him in the frame.\n\nQuick hard cut in close on the khaki boy's legs as he plants and bends at the knees, the twill stretching tight then snapping right back, the tucked polo keeping the waistband visible, the weave and the true khaki color filling the frame, only him in the shot.\n\nHard cut, the navy boy sprints straight at the camera and closes out the frame, filling the lens as he charges past, the grey, green and khaki boys small and far back in the deep background well separated with open space, every pant sharp and clean, pure energy to end, never standing still.\n\nEvery cut is a hard cut. Fast and energetic, the pants holding up, all four colors on show across the shots. No slow motion. No character ever holds a stare at the camera, eyes on the play and the body always moving. Only four boys exist in the entire video, never a fifth boy, never a duplicate of any boy, never two navy boys, no background children. No text, no captions, no words or letters anywhere on screen.\n\nSound: Use @Audio1 as the rhythmic foundation of the whole video. Sync every hard cut and their footsteps to the beat positions of @Audio1. Natural sound effects only on top: sneakers on the blacktop, the ball, kids calling out, real recess chatter.",
+      "genre": "auto",
+      "medias": [
+        {
+          "data": {
+            "id": "86caeed2-f496-46f2-bd33-703b4ddc8edf",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/86caeed2-f496-46f2-bd33-703b4ddc8edf.png",
+            "type": "media_input"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "e2f85199-068f-4ad7-90bf-39921ffa99aa",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/e2f85199-068f-4ad7-90bf-39921ffa99aa.png",
+            "type": "media_input"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "9cbb56cf-6977-492a-ba11-efe7700910d8",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/9cbb56cf-6977-492a-ba11-efe7700910d8.png",
+            "type": "media_input"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "6376d49e-fd3e-422e-8221-54d500f7c9e9",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/6376d49e-fd3e-422e-8221-54d500f7c9e9.png",
+            "type": "media_input"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "b9a69ebb-3b8d-4ed4-aa21-55aef7efd83b",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/b9a69ebb-3b8d-4ed4-aa21-55aef7efd83b.mp3",
+            "type": "audio_input"
+          },
+          "role": "audio"
+        }
+      ],
+      "duration": 12,
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "generate_audio": true,
+      "multi_shots": false,
+      "multi_shot_mode": "custom",
+      "multi_prompt": [],
+      "speedramp": "auto",
+      "reference_elements": [],
+      "prompt_language": "en",
+      "mode": "fast",
+      "model": "seedance_2_0_fast"
+    }
+  }
+]

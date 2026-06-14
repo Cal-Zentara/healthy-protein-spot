@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;padding:0;background:transparent;}
+  #stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:transparent;}
+  /* cream ruled notebook paper card */
+  #paper{
+    position:absolute; left:70px; top:140px; width:940px; height:520px;
+    background:#FBF7EC;
+    border-radius:14px;
+    box-shadow:0 26px 50px rgba(0,0,0,0.34), 0 4px 0 rgba(0,0,0,0.06);
+    transform-origin:50% 0%;
+    /* horizontal ruled lines + red margin */
+    background-image:
+      linear-gradient(to right, transparent 205px, #E8A6A0 205px, #E8A6A0 209px, transparent 209px),
+      repeating-linear-gradient(to bottom, transparent 0px, transparent 85px, #BFD8E8 85px, #BFD8E8 87px);
+  }
+  /* binder holes */
+  .hole{position:absolute; left:42px; width:34px; height:34px; border-radius:50%;
+        background:rgba(0,0,0,0.16); box-shadow:inset 0 2px 3px rgba(0,0,0,0.25);}
+  #txt{position:absolute; left:248px; top:60px; width:710px;}
+  #q{font-family:'Patrick Hand',cursive; font-size:60px; color:#33414B; line-height:1.0;
+     letter-spacing:0.5px; transform-origin:left center;}
+  #a{font-family:'Permanent Marker',cursive; font-size:92px; color:#1FA0DC; margin-top:96px;
+     transform-origin:left center; white-space:nowrap;}
+  svg.overlay{position:absolute; inset:0; width:1080px; height:1920px; pointer-events:none;}
+  .doodle{transform-origin:center center; transform-box:fill-box;}
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <div id="paper">
+    <div class="hole" style="top:70px"></div>
+    <div class="hole" style="top:240px"></div>
+    <div class="hole" style="top:410px"></div>
+    <div id="txt">
+      <div id="q">Busted knees by November?</div>
+      <div id="a">Not these pants.</div>
+    </div>
+  </div>
+
+  <svg class="overlay" viewBox="0 0 1080 1920">
+    <!-- blue marker circle around the answer (draws itself) -->
+    <g id="g-circle">
+      <path id="circle" d="M 300 370 C 470 330 720 332 880 362 C 940 375 945 422 905 442 C 740 482 470 482 300 450 C 232 436 232 376 320 362"
+            fill="none" stroke="#1FA0DC" stroke-width="11" stroke-linecap="round"
+            pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
+    </g>
+    <!-- teacher's tick in the red margin -->
+    <g id="g-check" class="doodle">
+      <path d="M 150 398 L 174 426 L 220 356" fill="none" stroke="#1FA0DC" stroke-width="14"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <!-- apple doodle, top-right corner of card -->
+    <g id="g-apple" class="doodle">
+      <path d="M 958 202 C 934 186 908 212 920 244 C 930 268 952 276 958 262 C 964 276 986 268 996 244 C 1008 212 982 186 958 202 Z"
+            fill="none" stroke="#1FA0DC" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M 958 200 L 963 178" stroke="#1FA0DC" stroke-width="6" stroke-linecap="round"/>
+      <path d="M 963 182 Q 988 172 995 188 Q 976 196 963 182 Z" fill="none" stroke="#1FA0DC" stroke-width="6" stroke-linejoin="round"/>
+    </g>
+  </svg>
+
+</div>
+
+<script>
+const DUR = 3.8;
+function prand(seed, fi, k){ const x = Math.sin(seed*127.1 + fi*311.7 + k*74.7)*43758.5453; return x - Math.floor(x); }
+function boil(seed, t, amp){ const fi = Math.floor(t*8);
+  const dx = (prand(seed,fi,1)-.5)*2*amp, dy = (prand(seed,fi,2)-.5)*2*amp, dr = (prand(seed,fi,3)-.5)*2.0;
+  return 'translate('+dx.toFixed(2)+'px,'+dy.toFixed(2)+'px) rotate('+dr.toFixed(2)+'deg)'; }
+function clamp(v,a,b){ return Math.min(Math.max(v,a),b); }
+function popScale(p){ if(p<=0) return 0; if(p>=1) return 1; const o=1.7; const q=p; return 1 + (o*Math.pow(q-1,3) + (o-1)*Math.pow(q-1,2)); }
+function popAt(t, tIn, dur){ return popScale(clamp((t - tIn)/(dur||0.45), 0, 1)); }
+function ease(p){ return p<0?0:p>1?1:1-Math.pow(1-p,3); }
+
+window.renderFrame = function(t){
+  t = Math.min(Math.max(t,0), DUR-0.001);
+
+  // paper card: settle in 0 -> 0.42 (rise + slight rotate)
+  const cp = ease(clamp(t/0.42,0,1));
+  const paper = document.getElementById('paper');
+  paper.style.opacity = clamp(t/0.30,0,1).toFixed(3);
+  const dy = (1-cp)*-34;
+  const rot = -1.6 + (1-cp)*1.6;
+  paper.style.transform = 'translateY('+dy.toFixed(2)+'px) rotate('+rot.toFixed(2)+'deg)';
+
+  // question: fade + tiny rise 0.40 -> 0.95
+  const qp = ease(clamp((t-0.40)/0.55,0,1));
+  const q = document.getElementById('q');
+  q.style.opacity = qp.toFixed(3);
+  q.style.transform = 'translateY('+((1-qp)*10).toFixed(2)+'px)';
+
+  // answer: pop 0.95 -> 1.4
+  const a = document.getElementById('a');
+  const ap = popAt(t, 0.95, 0.45);
+  a.style.opacity = ap<=0?0:1;
+  a.style.transform = 'scale('+Math.max(ap,0.001).toFixed(3)+')';
+
+  // marker circle draws 1.40 -> 2.25
+  const dp = ease(clamp((t-1.40)/0.85,0,1));
+  const circle = document.getElementById('circle');
+  circle.style.strokeDashoffset = (100*(1-dp)).toFixed(2);
+  document.getElementById('g-circle').style.transform = boil(31, t, 1.6);
+
+  // checkmark pop 2.15 -> 2.5
+  const ck = document.getElementById('g-check');
+  const ckp = popAt(t, 2.15, 0.35);
+  ck.style.opacity = ckp<=0?0:1;
+  ck.style.transform = 'scale('+Math.max(ckp,0.001).toFixed(3)+') ' + boil(32, t, 1.4);
+
+  // apple doodle pop 0.55 + boil
+  const ap2 = popAt(t, 0.55, 0.45);
+  const apple = document.getElementById('g-apple');
+  apple.style.opacity = ap2<=0?0:1;
+  apple.style.transform = 'scale('+Math.max(ap2,0.001).toFixed(3)+') ' + boil(33, t, 2.2);
+};
+renderFrame(0);
+</script>
+</body>
+</html>

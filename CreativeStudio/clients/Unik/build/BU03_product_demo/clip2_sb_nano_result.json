@@ -1,0 +1,43 @@
+[
+  {
+    "id": "c17f5559-f2c2-456b-84dd-dceade31bacc",
+    "status": "completed",
+    "display_name": "Nano Banana Pro",
+    "job_set_type": "nano_banana_2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/hf_20260614_002750_c17f5559-f2c2-456b-84dd-dceade31bacc.png",
+    "created_at": 1781396870.179839,
+    "params": {
+      "width": 2752,
+      "height": 1536,
+      "aspect_ratio": "16:9",
+      "resolution": "2k",
+      "batch_size": 1,
+      "input_images": [
+        {
+          "id": "fd1fd942-e790-4e39-a706-f11b7e70a653",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/fd1fd942-e790-4e39-a706-f11b7e70a653.png",
+          "type": "media_input"
+        },
+        {
+          "id": "470a8088-34ff-432b-bf85-3dee786fb125",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/470a8088-34ff-432b-bf85-3dee786fb125.png",
+          "type": "media_input"
+        },
+        {
+          "id": "f8eb7585-7f0d-4065-8771-a708db0ba8d4",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/f8eb7585-7f0d-4065-8771-a708db0ba8d4.png",
+          "type": "media_input"
+        },
+        {
+          "id": "bb7d5d55-b063-404f-9830-cab6e9d288b6",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/bb7d5d55-b063-404f-9830-cab6e9d288b6.png",
+          "type": "media_input"
+        }
+      ],
+      "input_image": null,
+      "application": null,
+      "surface": null,
+      "prompt": "Create a 5 frame storyboard contact sheet for a short product advertisement, designed as a clean visual overview for video development.\n\nUse the uploaded reference images as the exact cast and product reference. The four boys are the four real kids in the references, keep each face, hair, and body exactly. The product is the pull on school uniform pants worn in the references: a wide stitched elastic waistband, flat smooth front, matte twill with a real visible weave, slant side pockets, straight leg, hemmed cuff, no zipper, no button, no belt, no denim. Each boy wears a white pique polo tucked in so the elastic waistband stays visible. Preserve each pant color exactly and truly across every frame: navy, medium grey, a deep hunter green that still clearly reads as green and never black, and a soft light khaki that stays clearly visible and distinct from the grey. Do not redesign, recolor, or invent any detail of the pants.\n\nBrand concept:\nUNIK pull on school uniform pants for kids, shown surviving real play. The story proves the pants take a real beating from real kids across a pickup game and come through clean, while showing all four colors.\n\nVisual style:\nClean and real, photoreal, not glossy plastic AI and not illustrated. A bright school gym with a clean polished wood floor, painted court lines, a basketball hoop, and tall windows. Soft even neutral daylight with no warm color cast so every pant color reads true. Natural skin and fabric texture, accurate color, sharp and clear, real energy without grain, a clean modern commercial look. Camera feels handheld and close to the action, energetic and real.\n\nVideo intent:\nEach panel must read like a plausible shot from a short cinematic product ad, not a random still. The rhythm is fast and energetic with hard cuts, the pants always the clear subject.\n\nStoryboard format:\nGenerate one clean 5 panel storyboard contact sheet presented as a horizontal visual overview. Arrange the panels in a clear contact sheet layout with consistent spacing and subtle visual separation. Do not include frame numbers, captions, arrows, callouts, written shot labels, or annotation marks of any kind. The sequence must read naturally from left to right.\n\nPanel aspect ratio rule:\nEvery individual panel within the storyboard must itself be framed as a distinct 16:9 widescreen shot suitable for video. Do not generate square or vertically ambiguous panels.\n\nSequence logic:\nThe order is communicated through action, screen direction, and visual progression, not numbering.\n\nStory arc:\nFour boys are mid pickup game in the gym, the pants take real abuse through a slide and fast play, a close detail shows the tough twill stretching and holding, and the crew pulls up at the end with every color still sharp.\n\nFrame by frame direction:\nWide establishing shot of all four boys scattered across the bright gym deep in a loose pickup game, never lined up in a row, spaced well apart so all four pant colors read at once, one dribbling near the hoop, one cutting across open floor, one with hands up for the ball, one breaking into a run.\nMedium action shot of one boy dropping low onto one knee to scoop a loose ball off the floor, the knee taking the hard floor and the tough twill stretching and holding, body dynamic and mid play, other kids blurred behind.\nDynamic shot of one boy leaping high for a layup at the hoop while another boy cuts hard past underneath him, the colored twill flexing with the fast motion.\nExtreme close up on one boy's legs from the front and side as he plants hard and bends at the knees to change direction, the twill stretching tight across the knees then holding, the real weave and the deep true color filling the frame, never a low angle up at the seat or back.\nFinal wide shot of the four boys pulled up to a stop scattered around the key at slightly different spots and angles, never in a row, breathing hard with quick grins, looking at each other and the ball rather than the camera, all four colors clearly present including the light khaki, every pant color sharp and clean and true.\n\nComposition rules:\nVary the shots from wide establishing, to medium action, to a dynamic mid shot, to an extreme close up detail, to a final wide payoff. Keep the pants readable in every frame, the kids grounded in the real gym, the four colors always distinct and true.\n\nFraming rules:\nEvery panel composed as a believable 16:9 video shot with widescreen cinematography, clear subject focus, and directional movement.\n\nContinuity rules:\nKeep the four kids' faces and bodies identical to the references across all frames, the same gym, the same soft even neutral daylight, the same true pant colors, the same clean real look throughout.\n\nQuality rules:\nBelievable kid anatomy and natural proportions matching each face and age, natural hands, realistic pant fit and scale, true accurate colors, clean continuity, cinematic even lighting, production ready clarity, photoreal not CGI, not glossy.\n\nNegative constraints:\nNo frame numbers, captions, arrows, callouts, labels, or any text anywhere. No kids lined up in a row. No warped pants, no recolored or redesigned pants, no zipper or button or belt or denim, no broken anatomy, no extra fingers, no glossy plastic AI look, no grain, no low angle up at the seat or back, no panels that are not clearly 16:9. No green that looks black, no hidden waistband under an untucked shirt, no missing khaki, no two kids in the same color, no kid sliding flat across the floor."
+    }
+  }
+]

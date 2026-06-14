@@ -1,0 +1,54 @@
+[
+  {
+    "id": "43fcad3d-f4f4-4755-a629-aa9ec40bd3ec",
+    "status": "completed",
+    "display_name": "GPT Image 2",
+    "job_set_type": "gpt_image_2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/hf_20260614_002000_43fcad3d-f4f4-4755-a629-aa9ec40bd3ec.png",
+    "created_at": 1781396400.266011,
+    "params": {
+      "width": 2688,
+      "height": 1520,
+      "prompt": "Create a 5 frame storyboard contact sheet for a short product advertisement, designed as a clean visual overview for video development.\n\nUse the uploaded reference images as the exact cast and product reference. The four boys are the four real kids in the references, keep each face, hair, and body exactly. The product is the pull on school uniform pants worn in the references: a wide stitched elastic waistband, flat smooth front, matte twill with a real visible weave, slant side pockets, straight leg, hemmed cuff, no zipper, no button, no belt, no denim. Preserve each pant color exactly and truly across every frame: navy, medium grey, deep hunter green, and soft light khaki. Do not redesign, recolor, or invent any detail of the pants.\n\nBrand concept:\nUNIK pull on school uniform pants for kids, shown surviving real play. The story proves the pants take a real beating from real kids across a pickup game and come through clean, while showing all four colors.\n\nVisual style:\nClean and real, photoreal, not glossy plastic AI and not illustrated. A bright school gym with a clean polished wood floor, painted court lines, a basketball hoop, and tall windows. Soft even neutral daylight with no warm color cast so every pant color reads true. Natural skin and fabric texture, accurate color, sharp and clear, real energy without grain, a clean modern commercial look. Camera feels handheld and close to the action, energetic and real.\n\nVideo intent:\nEach panel must read like a plausible shot from a short cinematic product ad, not a random still. The rhythm is fast and energetic with hard cuts, the pants always the clear subject.\n\nStoryboard format:\nGenerate one clean 5 panel storyboard contact sheet presented as a horizontal visual overview. Arrange the panels in a clear contact sheet layout with consistent spacing and subtle visual separation. Do not include frame numbers, captions, arrows, callouts, written shot labels, or annotation marks of any kind. The sequence must read naturally from left to right.\n\nPanel aspect ratio rule:\nEvery individual panel within the storyboard must itself be framed as a distinct 16:9 widescreen shot suitable for video. Do not generate square or vertically ambiguous panels.\n\nSequence logic:\nThe order is communicated through action, screen direction, and visual progression, not numbering.\n\nStory arc:\nFour boys are mid pickup game in the gym, the pants take real abuse through a slide and fast play, a close detail shows the tough twill stretching and holding, and the crew pulls up at the end with every color still sharp.\n\nFrame by frame direction:\nWide establishing shot of all four boys scattered across the bright gym deep in a loose pickup game, never lined up in a row, spaced well apart so all four pant colors read at once, one dribbling near the hoop, one cutting across open floor, one with hands up for the ball, one breaking into a run.\nMedium action shot of one boy mid slide across the gym floor reaching for a loose ball, body low and dynamic, the tough twill taking the slide and holding up, other kids blurred behind.\nDynamic shot of one boy leaping high for a layup at the hoop while another boy cuts hard past underneath him, the colored twill flexing with the fast motion.\nExtreme close up on one boy's legs from the front and side as he plants hard and bends at the knees to change direction, the twill stretching tight across the knees then holding, the real weave and the deep true color filling the frame, never a low angle up at the seat or back.\nFinal wide shot of the four boys pulled up to a stop scattered around the key at slightly different spots and angles, never in a row, breathing hard with quick grins, looking at each other and the ball rather than the camera, every pant color sharp and clean and true.\n\nComposition rules:\nVary the shots from wide establishing, to medium action, to a dynamic mid shot, to an extreme close up detail, to a final wide payoff. Keep the pants readable in every frame, the kids grounded in the real gym, the four colors always distinct and true.\n\nFraming rules:\nEvery panel composed as a believable 16:9 video shot with widescreen cinematography, clear subject focus, and directional movement.\n\nContinuity rules:\nKeep the four kids' faces and bodies identical to the references across all frames, the same gym, the same soft even neutral daylight, the same true pant colors, the same clean real look throughout.\n\nQuality rules:\nBelievable kid anatomy and natural proportions matching each face and age, natural hands, realistic pant fit and scale, true accurate colors, clean continuity, cinematic even lighting, production ready clarity, photoreal not CGI, not glossy.\n\nNegative constraints:\nNo frame numbers, captions, arrows, callouts, labels, or any text anywhere. No kids lined up in a row. No warped pants, no recolored or redesigned pants, no zipper or button or belt or denim, no broken anatomy, no extra fingers, no glossy plastic AI look, no grain, no low angle up at the seat or back, no panels that are not clearly 16:9.",
+      "medias": [
+        {
+          "data": {
+            "id": "0982886e-a9ee-4602-be60-66b8dbb1aed9",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/0982886e-a9ee-4602-be60-66b8dbb1aed9.png",
+            "type": "media_input"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "608c872d-6187-4fd5-886c-0d66344c7dac",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/608c872d-6187-4fd5-886c-0d66344c7dac.png",
+            "type": "media_input"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "24df0d79-b532-4547-826a-42173a492516",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/24df0d79-b532-4547-826a-42173a492516.png",
+            "type": "media_input"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "630ad0e4-58f4-4b21-a65a-73de5d67c298",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/630ad0e4-58f4-4b21-a65a-73de5d67c298.png",
+            "type": "media_input"
+          },
+          "role": "image"
+        }
+      ],
+      "aspect_ratio": "16:9",
+      "quality": "low",
+      "resolution": "2k",
+      "model": "videotape-alpha",
+      "reference_elements": []
+    }
+  }
+]

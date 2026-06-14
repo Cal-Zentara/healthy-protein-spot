@@ -1,6 +1,90 @@
 # STATUS — UNIK (client)
 
+*Last updated: 2026-06-14*
+
+**June 14 — COPYWRITING STRATEGY built + locked, and the first repurposed IG Reel made from the Amazon video. Long teaching session: Cal learning copywriting, applied live to UNIK.**
+
+- **Copywriting strategy LOCKED** → new doc `docs/production/copywriting-strategy.md` (also linked in CLAUDE.md Doc Map + Next Steps #0). Built by applying the Sabri playbook (`../../COPYWRITING-PLAYBOOK.md`) + the customer-voice research (`docs/facts/customer-voice-research.md`).
+- **The spine: "buy once, done for the year."** Durability, from the #1 mom pain (re-buying pants in November when knees blow out). One spine ridden the WHOLE back-to-school season (mid-June to late August), NOT changed weekly — different hooks underneath it. Promise stays narrow + sharp; the PRODUCT spreads across the whole line (pants "busted knees", polo "still white in May", dress "survived every recess"). ⚠️ Condition: confirm with Thuy/Ben the pants actually hold up before going all-in.
+- **Repurposing system locked:** one video → ~5 posts by changing the cut / shape / format / hook. Proven today on the BU03 Amazon pants video → a Facebook widescreen post + a finished vertical IG Reel, zero new credits. (Memory: `feedback_repurpose_one_video.md`.)
+- **BUILT: the Monday Week 2 pants durability IG Reel.** `build/BU03_product_demo/clip1_FULL_reel_v3.mp4` + Desktop `UNIK Pants IG Reel FINAL.mp4`. Center-cropped clip 1 to vertical 9:16 (footage is single-kid-centered, crops clean), animated school-paper hook ("Busted knees by November? Not these pants."), unik watermark (74px, Cal kept it as-is), blue vertical end card (`unik_end_card.png`), drumline across all 15s with fade. 16:9 Amazon cut → Facebook; this vertical → IG (separate surfaces don't compete, researched).
+- **NEW reusable tool: the animated hook-overlay engine** at `outputs/hook-overlay/` (index.html + render.cjs). Cream ruled notebook paper + handwritten question + blue marker that draws a circle around the answer + tick in the red margin + apple doodle — matches the doodle end card. Built as code (Playwright transparent frames → ffmpeg overlay), zero credits, reskinnable for any post. Cal rejected the flat ffmpeg text box ("a 4th grade youtuber can do this") — always build hooks with this engine now. (Memory: `reference_hook_overlay_engine.md`.)
+- **Research done (5 agents each, 2 runs, Brave, MEDIUM reliability — marketing blogs not Instagram's own data):** (1) a widescreen FEED post + a vertical REEL the same day do NOT compete (separate ranking surfaces) — post both; no real penalty for posting 2x/day, only mild attention-split for two of the SAME format. (2) pros' apparent "volume" is mostly Stories + repurposing, not 5 fresh posts; small-account sweet spot is 3-5 strong posts/week + light Stories; steal batching + repurposing + engagement-over-follower-count.
+- **Week 2 sharpened (frame stays — 4 reels + found message):** Mon pants durability (BUILT) · Tue cute flip (keep, add school-paper hook) · Wed polo re-angled to "Still white in May" · Thu POV 7:42am (keep) · Fri found message (keep). Clip 2 "colors" reel banked for Week 3. Add a light Stories layer all week.
+- **Credits this session: 0** (all FFmpeg + code; no gens).
+- **NEXT:** Thuy/Ben durability gut-check → build Tue flip + Wed polo reels (reuse the hook engine) → cut clip 2 "colors" reel → lock sharpened Week 2 into the live roadmap.
+
+---
+
+*Last updated: 2026-06-13 (evening)*
+
+**June 13 (evening) — BU03 clip 1 reworked to a clean 3-beat run. Reusable Amazon doodle end card BUILT + LOCKED. Full 27s draft cut, sent to Thuy + Ben.**
+
+- **Clip 1 LOCKED to 3 beats (most natural recess move wins):** burst out the doorway → one quick waist tug (the single pants close-up) → run flat-out to the monkey bars and leap up to grab the first bar. Killed the mid-clip "crouch/cut" beat — dropping into a crouch mid-run read as a freeze ("mid stop"). Lesson: every middle beat that isn't pure forward motion risks reading as a stop; a kid just running to a target is the most natural and most reliable. Prompt at `build/BU03_product_demo/clip1_fit_demo_prompt.txt` (~2,687 ch, navy boy solo, no ball). Best draft: `clip1_clean_test4.mp4`.
+- **Clip 2 stays LOCKED** (one-kid-per-shot combine, `clip2_combined_7plus5.mp4`). One kid per shot solved the extra-kid clone for good.
+- **Audio truth re-confirmed for Cal (he kept hearing "wrong audio"):** the raw Seedance test plays the model's OWN auto-generated soundtrack, never your track. @Audio1 only shapes the pacing during gen. The real drumline is married on in FFmpeg post. Now I marry the real track onto every test before sending so Cal judges with correct audio. Audio fed = first 12s of `C:\Users\Aesth\Desktop\BU03 Drumline 24s.mp3`, cut to `clip1_audio_first12.mp3`.
+- **⚠️ REUSABLE AMAZON DOODLE END CARD — BUILT + LOCKED (June 13).** Cal's cream card ("unik" + "Built for the School Day" + "available at amazon") extended to 16:9, with 4 hand-drawn blue doodles popping in around the text (pencil top-left, apple top-right, open book bottom-left, ruler bottom-right) using the doodle-reel engine (HTML + boil + Playwright render). ZERO credits. Saved to `assets/end-card/unik_amazon_endcard_doodle_16x9.mp4` (+ still `unik_amazon_endcard_card_16x9.png`); build files at `outputs/endcard-doodle/`. Documented in client CLAUDE.md as the end card for ALL Amazon/widescreen videos.
+- **Full draft cut delivered:** `BU03 FULL doodle endcard.mp4` on Desktop — clip1 (12s) + clip2 (12s) + doodle end card (3s) = 27s, drumline over the whole thing, fades out. Cal is sending it to Thuy + Ben for opinions.
+- **Credits this session: 54** (3 Seedance fast 480p 12s clip-1 tests at 18cr each). End card + all assembly = 0 credits (code/FFmpeg).
+- **NEXT:** get Thuy + Ben notes → 720p std finals of both clips → drop the full-res (1820x1024) end card in → strip gen audio, hard-cut clip1+clip2, marry full drumline → unik watermark → deliver + Desktop copy.
+
+---
+
+*Last updated: 2026-06-13*
+
+**June 13 — BU03 product video reworked through a long iteration with Cal. Landed on GROUNDED ACTION at recess. Music made + cut. Two new studio hard rules.**
+
+- **Where it landed after many passes:** a fast, energetic PRODUCT video, pants as hero, action GROUNDED at recess. (A kid jumping in an empty void read as fake AI; grounding it in a real place with a real reason fixed it.) Look = "clean and real": bright even daylight, TRUE accurate color, real kid, not glossy AI, not posed. Dropped the old "documentary / film grain / warm available light" language because warm uneven light shifts the pant colors, and color is the whole point (esp. clip 2). Both prompts overwritten + saved at `build/BU03_product_demo/`, ~2500+ chars each. The June 12 "calm version / boring / escalation pending" note below is SUPERSEDED.
+- **Clip 1 (`clip1_fit_demo_prompt.txt`, ~2507 ch) — younger boy, NAVY, recess playground.** 4 beats: pull-on waistband snap → sprints onto the blacktop → leaps off the play-structure step (lands, waistband holds) → crouches to grab a ball and springs up (stretch/recover) → skids to a stop, hands in pockets, full clean read.
+- **Clip 2 (`clip2_range_demo_prompt.txt`, ~2525 ch) — THREE friends at recess, each a different color (green/grey/khaki).** Was one kid morphing colors; Cal agreed that's weak (a fast layup is the worst moment to read a color). Now: 3 boys crouched at a start line (the three colors clear in a row = the color display) → explode into a sprint → one goes up for a layup → all three skid to a stop together. **Cal is generating 2 MORE kids himself** (for grey + khaki; the teen ref wears green). Kid spec given to him: cute, ages ~8-12, slim/average build (NO husky — it's a product video), face must match body/age (no creepy old-face-on-little-body), boys, varied looks. The navy hero (clip 1) stays solo.
+- **Music DONE.** Cal made the track in Suno (retro funk, his pick from style prompts I wrote): `C:\Users\Aesth\Downloads\Chrome Dance Floor.mp3` (90s). I cut it (saved in the build folder): `BU03_audio_full_24s.mp3` (continuous track to marry over the final assembly), `BU03_audio_clip1_0to12.mp3` + `BU03_audio_clip2_12to24.mp3` (the two @Audio1 feeds, one per clip).
+- **Cat & Jack research (5 agents).** Target-exclusive ($3B, #1 US kids brand, no standalone ads — Cal noticed this in the Ad Library). They run TWO video types: (1) clean PRODUCT-PAGE video = model on grey + on-screen TEXT feature callouts + logo, calm by design, works muted (the "boring" one Cal found); (2) high-energy BRAND TV = kids dancing to pop music. Messaging order: fun → value → durability (their 1-yr "made to last" guarantee is the signature). Reframing insight: AI video is WEAKEST copying a clean studio shoot (looks fake), STRONGEST at grounded real action — so lean into grounded action, not a fake studio.
+- **TWO new studio CLAUDE.md HARD RULES locked (June 13):** (1) every video prompt comes with a BEAT BREAKDOWN stated SEPARATELY for Cal, NEVER written into the gen prompt (no "Beat 1 / HELD" labels — the prompt stays clean cinematic prose). (2) Every ACTION must be GROUNDED in a real place with a real reason — floating action in a void reads as fake AI.
+- **NEXT (nothing generated yet — Mon June 15 was the BU03 deadline):** Cal sends the 2 new kid refs → set up gen (clip 2 = 3 kid refs + 3 pant flats; clip 1 = navy boy + navy flat) → 480p 16:9 tests first → Cal approves → 720p finals → strip gen audio, hard-cut clip1+clip2, marry `BU03_audio_full_24s.mp3` over the whole thing (cuts on the beat, librosa) → unik watermark + end card. Optional post text callouts (Cat & Jack style, pulled from the live listing + Thuy-approved).
+
+---
+
 *Last updated: 2026-06-12 (morning)*
+
+**June 12 (evening) — BU03 reframed as a PRODUCT video (Thuy: band style is content, not product). Music workflow fixed.**
+
+- **Thuy's call: the band/auditorium style is a CONTENT video, NOT a product video.** Pivoted to a true product demo for the pull-on pants. TWO clips, 12s each, WIDE 16:9 (for Amazon), two boys Cal supplied (younger boy white-polo/navy, Asian teen black-polo/green), four flat pant photos (navy, grey, khaki, green) as refs. ALL four colors must show.
+- **Product-video research (4 agents, Brave): the format is the SENSORY DEMO** — feature → fit-in-motion → detail closeup → proof → CTA, built for MUTE (68% watch muted, 60% drop after 30s). Competitors (French Toast, H&M) don't make their own product videos — clean brand demo is an open lane.
+- **TWO prompts WRITTEN + saved to `build/BU03_product_demo/`:** `clip1_fit_demo_prompt.txt` (2546 chars — navy, waistband pull-on → hallway walk → desk sit/bend) and `clip2_range_demo_prompt.txt` (2638 chars — teen, green→grey→khaki color swaps in one continuous walk). Both pants-as-hero, waist-height framing, @Audio1 sound block. NOT generated.
+- **⚠️ Open: Cal called the calm demo "boring." The SAVED prompts are still the calm version.** Proposed escalation "One school day, zero mercy" (clip1 races the bell; clip2 = stairs two-at-a-time / doorframe jump / [drop the basketball-catch beat, highest gen-risk] → step out school doors as the durability payoff). Rated 7.5/10 (AI-risk 6 — fast motion smears). Awaiting Cal's go before rewriting the prompts to this energy. Still 100% product, just not lifeless.
+- **DATA VALIDATES THE PRODUCT VIDEO (Meta Business Suite screenshot, last 90 days, June 12):** the single best post in the window is the June 8 "Unik pull on pants. Comfy elastic" PRODUCT reel — 448 reach, 736 views, 121 3-sec views. Beats everything. Product reels cluster high/steady (girls polo 320, white shirt 294, safari 259). Found messages are flatlining (today's "Be honest" got 2 IG / 3 FB; bus-stop 10-15). Lesson: product reels = reliable reach winner, comedy = shares, found message slot needs rethink.
+- **MUSIC WORKFLOW researched + locked (see `MUSIC-WORKFLOW.md`, new file).** Re-checked after Cal pushed back: Higgsfield users with "baked-in music" use MUSIC-FIRST from an outside tool (Suno), uploaded as @Audio1, then VIDEO is shaped to it — confirmed by Higgsfield's own K-Pop case study. Seedance does NOT compose usable music to follow. Rule now hard-locked in studio CLAUDE.md + memory (`feedback_music_in_prompts.md`): never describe music in a prompt, feed @Audio1 + sound block at end, marry real track in FFmpeg post, sync cuts 1-2 frames BEFORE the beat (librosa for beat times). Hall Pass Bounce is the planned track.
+
+---
+
+**June 12 (evening) — Meta token DISCONNECTED at Cal's request. Stats scripts deleted.**
+
+- **Cal asked to disconnect the Meta token connected to his account. DONE.** Deleted `.env` (held UNIK_PAGE_TOKEN) plus the 5 Meta scripts: `fb-stats.ps1`, `ig-stats.ps1`, `ig-deep2.ps1`, `ig-followers.ps1`, `check-token.ps1`. `tt-stats.ps1` (TikTok, not Meta) left in place. Nothing local can reach Meta now.
+- **No more automated Meta stats pulls.** For the stats-first rule going forward: Cal screenshots Meta Business Suite (published-posts screen) and we read the numbers off that. Do NOT try to run the deleted scripts. Buffer MCP still works for what posted (not reach).
+- **Optional, Cal's to do:** revoke the "unik" app (ID ...666845) at facebook.com → Settings → Business Integrations to fully scrub it Meta-side. Not urgent — token's gone so the app is inert.
+- **Posting via Buffer is untouched** — Cal scoped this to the tokens only, not posting.
+
+---
+
+**June 12 (afternoon) — Week 2 rebuilt as REEL WEEK. Pants comedy concepts banked.**
+
+- **New cadence locked by Cal: 4-5 reels a week, different format each, always one true product reel.** Week 2 on the live roadmap (commits 8239364 + 15a3dea, pushed): Mon BU03 band video, Tue Flip haul reel, Wed polo hallway product ad (flagship polo's first own ad), Thu POV 7:42am chaos reel, Fri found message (image). Uniform-count topic bumped to late July haul window. Report card graphic (made) = weekend bonus.
+- **Auditorium master prompt WRITTEN, saved to `build/BU03_master_prompt_v2_auditorium.txt`.** Changes from v1: auditorium stage block (worn wood, red curtain, stage lights, stage lip), ages stated on kid 1 (age 5 dancer) and kid 2 (age 7 bass), blanket body-matches-face line. Cal is building the two new kid refs HIMSELF; when done, swap into reference set. NOT generated yet.
+- **Trend research (5 agents, Brave): mostly noise. Two keepers:** (1) reality TV dramatization trend — dramatic reality-show audio over mundane footage, see @bomanizer on TikTok, perfect skin for the Thu POV reel; (2) before/after pants Sept vs June — sensible but NO viral precedent in kids clothing, it's a judgment bet. Cat & Jack virality = warranty hack, not transferable.
+- **Pants comedy concepts banked (convenience + peace of mind, emotion = CALM, all listing-factual).** Passed the "delete the product, does the joke die?" test: **"We have five more"** (kid comes home destroyed, mom calmly opens drawer of 5 identical pants, under $15) and **"3-second tutorial"** (how to dress your kid: pull on, done, awkward empty 12 seconds). Borderline: "The Silence" (silence = disaster, but kid dressed himself — needs hard text hook). Rejected as not product-obvious: Calm Mom chaos, Dad Handoff. Wild-spectacle bank: Testing Facility (NASA lab tests pants, deadpan kid scientist), nature-documentary recess, pants-outlive-everything year montage, mom's slow-mo mud puddle nightmare.
+- **Thuy offered to pay Cal's $850/yr AI subscription** ("we are family") — Cal deferred to keep the future pay conversation clean. Her quote, proof of value for that conversation: "you are spending real time and real efforts. I think you getting involved had already helped me focus more on Unik's online present." (WhatsApp, June 12.)
+
+---
+
+**June 12 (midday) — BREAKTHROUGH: first shares ever. Squirrel reel = new best post.**
+
+- **Squirrel comedy reel (June 11) got 13 SHARES on Instagram** — the account's first shares EVER (the breakthrough metric from the stats-first rule). Also 295 reach IG + 294 reach FB + 258 on the safari dress crosspost day. Source: Meta Business Suite published-posts screen, June 12. Old best-ever reach was 172.
+- **Lesson locked: wild absurd spectacle + confident kid + casual product tie-in caption = the share engine.** Deadpan alone gets reach (durability, Egypt); WILD gets shares. The squirrel reel was the wild-ugc format.
+- **Full Week 1 leaderboard (Meta Business Suite, June 12, FB+IG combined):** squirrel reel 589 (295 IG + 294 FB, 13 shares); Egypt meme 460 (334 FB + 126 IG); durability reel 448; safari dress 258; bus stop found message 25 (15 IG + 10 FB); Stain WANTED carousel 21 (9 IG + 12 FB). Reels are 10-25x everything else. Statics still near zero (Friday post: 2-3 reach in first hour, early).
+- **Thuy is posting her own AI videos now** — a Kling motion-control video (FB, June 12 4:12pm) and a dancing cat "Friday vibes" post (FB+TikTok, with hashtags). She's using her own subscription. Roadmap posts and her posts now share the feed.
+- Tracker Google auth FIXED (read test passed June 12).
+
+---
 
 **June 12 (morning) — Thuy's BU03 verdict: content video, not product video. Re-gen direction LOCKED.**
 

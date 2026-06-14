@@ -1,0 +1,46 @@
+[
+  {
+    "id": "977f0f43-f0ba-49bd-8111-3084f33361c8",
+    "status": "completed",
+    "display_name": "Seedance 2.0",
+    "job_set_type": "seedance_2_0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/hf_20260614_021308_977f0f43-f0ba-49bd-8111-3084f33361c8.mp4",
+    "created_at": 1781403188.12902,
+    "params": {
+      "width": 854,
+      "height": 480,
+      "prompt": "The only person on screen is the boy from @Image1: a real cute 9 year old boy with light brown neatly combed hair and a crisp white pique polo tucked in so the waistband shows, natural healthy kid proportions that match his face and age. He wears the EXACT navy pull on school uniform pants he has on in @Image1 the whole time: a wide stitched elastic waistband, flat smooth front, matte navy twill with a real visible weave, slant side pockets, straight leg, hemmed cuff. There is NO zipper, no button, no belt and no denim anywhere, just a clean simple elastic waistband. This clip is about the boy getting ready and heading out to the playground. The pants are the hero of every shot and the camera stays low and close on them from the front and side, favoring the legs and waistband over the face, never a low angle up at the seat or back, the navy twill filling much of the frame. The setting is a real school at recess time, starting in a bright doorway at the edge of the blacktop and opening out onto an open playground with a play structure, soft even daylight in open shade with no harsh sun and no warm color cast so the navy reads true. True accurate color, real fabric weave and skin texture, sharp and clear, not glossy plastic AI, not a posed catalog. Energetic but clean pacing, every movement grounded in really getting ready to go play, hard cuts only.\n\nIt opens low and close on the navy pants as the boy bounces on his feet in the doorway, antsy and ready to go, his weight shifting side to side, the matte twill moving with him and the clean elastic waistband sitting flat with no zipper or button.\n\nQuick hard cut, still close, he drops into a quick crouch to tighten his sneaker, the navy twill stretching smoothly with the bend at the knees then snapping right back to shape, comfortable and unrestricted, the camera right on the fabric.\n\nQuick hard cut, he pushes off hard and bursts out of the doorway onto the playground, the navy legs driving into a run, the twill swinging with real fabric weight, the camera low and tracking his legs.\n\nHard cut, he strides out across the open blacktop into the start of recess, the whole navy pant from waistband to hem reading sharp and true in the even light, his eyes ahead on the playground and never on the camera, already into the play.\n\nEvery cut is a hard cut. Energetic, clean, the navy pants the star of every frame, the whole clip the boy getting ready and heading out to play. No slow motion. No character ever holds a stare at the camera, eyes always ahead and the body always moving. No text, no captions, no words or letters anywhere on screen.\n\nSound: Use @Audio1 as the rhythmic foundation of the whole video. Sync every hard cut and his footsteps to the beat positions of @Audio1. Natural sound effects only on top: sneakers on the ground, a door, distant playground chatter.",
+      "genre": "auto",
+      "medias": [
+        {
+          "data": {
+            "id": "ca12ccef-bb96-4af9-aa7c-537261a5baaf",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/ca12ccef-bb96-4af9-aa7c-537261a5baaf.png",
+            "type": "media_input"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "23ceb4ec-8d4f-4a99-9c71-4d86c1403e49",
+            "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/d74a5738-a00c-4c75-b464-f658a3b5bff1_sfx.wav",
+            "type": "audio_input"
+          },
+          "role": "audio"
+        }
+      ],
+      "duration": 12,
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "generate_audio": true,
+      "multi_shots": false,
+      "multi_shot_mode": "custom",
+      "multi_prompt": [],
+      "speedramp": "auto",
+      "reference_elements": [],
+      "prompt_language": "en",
+      "mode": "fast",
+      "model": "seedance_2_0_fast"
+    }
+  }
+]

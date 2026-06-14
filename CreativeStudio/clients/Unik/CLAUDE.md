@@ -55,6 +55,7 @@ The old strategy + facts docs (masterclass, social strategy, product catalog, re
 | `wild-ugc-format.md` | production/ | Locked spec for the Wild UGC disaster format (or use the `wild-ugc` skill) |
 | `found-message-format.md` | production/ | Unik's found message format — the weekly Community single image slot. Wells, surfaces, starter lines, prompt shape |
 | `mom-attention-playbook.md` | production/ | How to reach moms — hooks, emotions, conversion, Latina mom culture, formats, July timing. Read before building any mom-targeted post |
+| `copywriting-strategy.md` | production/ | ⭐ The copywriting spine + how-we-talk (LOCKED June 14). Spine = "buy once, done for the year" (durability across the whole line), her-words hooks, the one-video-to-many repurposing system, format jobs. Read before writing any UNIK copy/post. |
 | `seedance-hallway-formula.md` | **archive/** | OUTDATED. Do not follow its audio setting. |
 
 Folder layout: `docs/` (production / archive), `assets/` (audio, logo, end-card), `build/` (raw gen intermediates), `outputs/` (finals / iterations / girls_scenes). Shareable finals are also copied to the desktop `UNIK Ads/` folder.
@@ -141,12 +142,14 @@ Logo file: `assets/logo/unik_logo.png`. Never skip this step.
 ## Music & End Card (locked)
 
 - **Music:** `assets/audio/Hall Pass Bounce.mp3` — mix at **50% volume** under VO, runs full duration, continues over the end card.
-- **End card:** `assets/end-card/unik_end_card.png` (752x1344). Blue bulletin-board PSA look, "unik" lowercase white, "Ready for the school year." 3 seconds static, hard cut, no animation. (Full spec in the reference file.)
+- **End card (Reels/9:16):** `assets/end-card/unik_end_card.png` (752x1344). Blue bulletin-board PSA look, "unik" lowercase white, "Ready for the school year." 3 seconds static, hard cut, no animation. (Full spec in the reference file.)
+- **⚠️ AMAZON END CARD (16:9) — LOCKED June 13, 2026. Use on ALL Amazon/widescreen videos.** `assets/end-card/unik_amazon_endcard_doodle_16x9.mp4` (1820x1024, 3s, silent — music carries over it). Cream card, blue "unik" logo + "Built for the School Day" + "available at amazon", with 4 hand-drawn blue doodles (pencil top-left, apple top-right, open book bottom-left, ruler bottom-right) that pop in with a hand-drawn boil. Built as code, zero credits. Source build (HTML + render.cjs + frames): `outputs/endcard-doodle/`. Re-render: `node render.cjs full` then stitch frames at 30fps. Static card image: `assets/end-card/unik_amazon_endcard_card_16x9.png`.
 
 ---
 
 ## Next Steps
 
+0. **⭐ COPYWRITING STRATEGY LOCKED June 14 → `docs/production/copywriting-strategy.md`.** Spine = "buy once, done for the year" (durability across the whole line, not just pants). Hooks in HER words. One video → many posts (repurposing). **BUILT June 14:** the Monday Week 2 pants durability IG Reel from the Amazon video — `build/BU03_product_demo/clip1_FULL_reel_v3.mp4` + Desktop `UNIK Pants IG Reel FINAL.mp4` (vertical crop + animated school-paper hook "Busted knees by November? Not these pants." + watermark + blue end card + drumline). The 16:9 Amazon cut goes to Facebook; this vertical goes to IG. Reusable school-paper hook engine at `outputs/hook-overlay/`. **NEXT on this:** confirm with Thuy/Ben the pants genuinely hold up before the spine goes all-in; build Tue flip + Wed polo "Still white in May" reels; bank clip 2 "colors" reel for Week 3; lock the sharpened Week 2 into the live roadmap; wire this doc's pointer into the roadmap too.
 1. **Thursday Safari dress posted June 11** via Meta Business Suite (Facebook Reel). Caption: real product facts from live listing. ✓ Done.
 2. **Squirrel comedy reel posted June 11** — "I swear kids are wild these days when they feel confident with our school uniforms." ✓ Done.
 3. **Ben to update TikTok bio + website field** — send him the text: "Premium school uniforms for less. LA family owned. unikusa.com & Amazon" (80 chars, parent-first). He must log into @unik.inc directly to edit it.
@@ -154,7 +157,7 @@ Logo file: `assets/logo/unik_logo.png`. Never skip this step.
 3. **Thursday post (June 11)** — Safari dress product ad. Caption ready in `caption-pack.md`: "Unik Safari uniform dress. Khaki and navy, dress code ready, comfortable enough to run the whole recess in. Shop at unikusa.com (also on Amazon), link in bio." Post via Buffer at 11am Pacific.
 4. **Friday caption** — still needs trimming to Thuy's short/playful/factual rule before it posts.
 5. **Brand trust review graphic** — Wednesday's slot was taken by the Egypt meme. Reschedule as next week's trust slot.
-6. **BU03 pants video (Thuy's request) — DRAFT DONE June 11.** Kid rock band concept, 27s wide for Amazon, music only, no VO. Draft on Desktop (`8 - FINAL with endcard.mp4`) + `build/BU03_FINAL_with_endcard.mp4`. NEXT: send to Thuy for approval BEFORE any 720p final gens (~87.5cr). Winning recipe + word-trap lessons (husky→dog, denim→jeans, air guitar→real guitar, @Audio1 rule) in STATUS.md June 11 evening block.
+6. **BU03 pull-on PANTS product video (Amazon, 16:9, ~24s + end card) — DRAFT DONE June 13, sent to Thuy + Ben.** Recess + soccer concept, drumline music, no VO. Clip 1 = navy boy solo, 3 beats (burst out → waist tug → run to monkey bars + leap). Clip 2 = LOCKED, 4 colors one-kid-per-shot (`build/BU03_product_demo/clip2_combined_7plus5.mp4`). Reusable Amazon doodle end card LOCKED (see Music & End Card section). Full draft: Desktop `BU03 FULL doodle endcard.mp4` (480p). NEXT: get Thuy + Ben notes → 720p std finals of both clips → drop full-res end card → marry full drumline → unik watermark → deliver. Full resume + recipe in `build/BU03_product_demo/RESUME.md`. (The June 11 "kid rock band" version is superseded; STATUS history kept.)
 7. No paid Meta engagement yet — hold until organic feedback comes in.
 8. **Hi-res UNIK logo** — ask Ben for vector or hi-res PNG with transparent background. Current logo is only 190x91px.
 9. **Found message — next three weeks** — use the remaining starter lines + surfaces from `docs/production/found-message-format.md`. Rotate the feeling every week (never the same well twice in a row). Judge on saves + shares, not reach.

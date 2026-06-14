@@ -1,0 +1,43 @@
+[
+  {
+    "id": "84e8620b-1127-4bf8-bbea-0e63ca3c2c34",
+    "status": "completed",
+    "display_name": "Nano Banana Pro",
+    "job_set_type": "nano_banana_2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/hf_20260614_003729_84e8620b-1127-4bf8-bbea-0e63ca3c2c34.png",
+    "created_at": 1781397449.417267,
+    "params": {
+      "width": 2752,
+      "height": 1536,
+      "aspect_ratio": "16:9",
+      "resolution": "2k",
+      "batch_size": 1,
+      "input_images": [
+        {
+          "id": "42709152-6735-4239-ae00-c931c05bc99e",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/42709152-6735-4239-ae00-c931c05bc99e.png",
+          "type": "media_input"
+        },
+        {
+          "id": "75ce894d-288e-4709-8e8f-749642aade78",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/75ce894d-288e-4709-8e8f-749642aade78.png",
+          "type": "media_input"
+        },
+        {
+          "id": "e08dd23a-58c1-4b48-869c-630398a2f594",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/e08dd23a-58c1-4b48-869c-630398a2f594.png",
+          "type": "media_input"
+        },
+        {
+          "id": "4c443b33-6cf2-4ba6-b80c-8f6082d06444",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CfpBCi3mGpl36780z9cawWE9H8/4c443b33-6cf2-4ba6-b80c-8f6082d06444.png",
+          "type": "media_input"
+        }
+      ],
+      "input_image": null,
+      "application": null,
+      "surface": null,
+      "prompt": "Create a 5 frame storyboard contact sheet for a short product advertisement, designed as a clean visual overview for video development.\n\nUse the uploaded reference images as the exact cast and product reference. There are exactly four boys, the four real kids in the references, keep each face, hair, and body exactly. Each boy permanently owns one pant color for the whole sequence: one boy always in navy, one always in medium grey, one always in deep hunter green that clearly reads green and never black, one always in soft light khaki that stays clearly distinct from the grey. In any frame with more than one boy, all colors shown are different, never two boys in the same color. Each boy wears a white pique polo tucked in so the elastic waistband stays visible. The product is the pull on school uniform pants worn in the references: a wide stitched elastic waistband, flat smooth front, matte twill with a real visible weave, slant side pockets, straight leg, hemmed cuff, no zipper, no button, no belt, no denim. Do not redesign, recolor, or invent any detail of the pants.\n\nBrand concept:\nUNIK pull on school uniform pants for kids, shown surviving real recess play. The story proves the pants take a real beating from real kids out at recess in their uniforms and come through clean, while showing all four colors.\n\nVisual style:\nClean and real, photoreal, not glossy plastic AI and not illustrated. An outdoor school recess yard, an open blacktop with faded painted lines and a play structure, a few other kids playing in the soft background. Soft even daylight in open shade or a bright overcast sky, no harsh direct sun and no warm color cast, so every pant color reads true. Natural skin and fabric texture, accurate color, sharp and clear, a clean modern commercial look. Camera feels handheld and close to the action, energetic and real.\n\nVideo intent:\nEach panel must read like a plausible shot from a short cinematic product ad, not a random still. The rhythm is fast and energetic with hard cuts, the pants always the clear subject.\n\nStoryboard format:\nGenerate one clean 5 panel storyboard contact sheet presented as a horizontal visual overview. Arrange the panels in a clear contact sheet layout with consistent spacing and subtle visual separation. Do not include frame numbers, captions, arrows, callouts, written shot labels, or annotation marks of any kind. The sequence must read naturally from left to right.\n\nPanel aspect ratio rule:\nEvery individual panel within the storyboard must itself be framed as a distinct 16:9 widescreen shot suitable for video. Do not generate square or vertically ambiguous panels.\n\nSequence logic:\nThe order is communicated through action, screen direction, and visual progression, not numbering.\n\nStory arc:\nFour boys are mid recess on the blacktop, the pants take real abuse through scrambles and jumps and fast play, a close detail shows the tough twill stretching and holding, and the crew pulls up at the end with every color still sharp.\n\nFrame by frame direction:\nWide establishing shot of all four boys scattered across the open recess blacktop deep in real play, never lined up in a row, spaced well apart so all four pant colors read at once, one sprinting, one climbing the play structure, one mid chase, one breaking sideways.\nMedium action shot of one boy dropping low onto one knee on the rough blacktop to scoop something up and spring back, the knee taking the hard ground and the tough twill stretching and holding, body dynamic and mid play, other kids blurred behind.\nDynamic shot of one boy leaping off the low bottom step of the play structure into a jump, the colored twill flexing in midair, about to land solid on the blacktop.\nExtreme close up on one boy's legs from the front and side as he plants hard and bends at the knees mid run, the twill stretching tight across the knees then holding, the tucked polo keeping the elastic waistband visible, the real weave and the deep true color filling the frame, never a low angle up at the seat or back.\nFinal wide shot of the four boys pulled up to a stop scattered across the blacktop at slightly different spots and angles, never in a row, breathing hard with quick grins, looking at each other rather than the camera, all four colors clearly present including the light khaki, every pant color sharp and clean and true.\n\nComposition rules:\nVary the shots from wide establishing, to medium action, to a dynamic mid shot, to an extreme close up detail, to a final wide payoff. Keep the pants readable in every frame, the kids grounded in the real recess yard, the four colors always distinct and true.\n\nFraming rules:\nEvery panel composed as a believable 16:9 video shot with widescreen cinematography, clear subject focus, and directional movement.\n\nContinuity rules:\nKeep the four kids' faces and bodies identical to the references across all frames, each boy in his own assigned color the whole time, the same recess yard, the same soft even open shade light, the same true pant colors, the same clean real look throughout.\n\nQuality rules:\nBelievable kid anatomy and natural proportions matching each face and age, natural hands, realistic pant fit and scale, true accurate colors, clean continuity, even soft lighting, production ready clarity, photoreal not CGI, not glossy.\n\nNegative constraints:\nNo frame numbers, captions, arrows, callouts, labels, or any text anywhere. No kids lined up in a row. No warped pants, no recolored or redesigned pants, no zipper or button or belt or denim, no broken anatomy, no extra fingers, no glossy plastic AI look, no grain, no low angle up at the seat or back, no panels that are not clearly 16:9. No green that looks black, no hidden waistband under an untucked shirt, no missing khaki, no two kids in the same color, no kid sliding flat across the ground, no harsh sunlight or warm color cast."
+    }
+  }
+]
